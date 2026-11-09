@@ -1,4 +1,5 @@
-# Wazuh Indexer, Manager, and Dashboard
+# Wazuh Indexer, Manager, and Dashboard  
+![Wazuh Logo](https://wazuh.com/brand-assets/Wazuh-Logo.svg)  
 ## Environment  
 - VirtualBox 7.2 - Hosts Ubuntu 24
 - Ubuntu 24 - For Wazuh indexer, Wazuh manager, and Wazuh dashboard.
