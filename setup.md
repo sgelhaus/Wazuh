@@ -1,7 +1,7 @@
 # Wazuh Indexer, Manager, and Dashboard
 ## Environment  
-Virtualbox 7.2 - Hosts Ubuntu 24
-VM Ubuntu 24 - For Wazuh indexer, Wazuh manager, and Wazuh dashboard.
+- VirtualBox 7.2 - Hosts Ubuntu 24
+- Ubuntu 24 - For Wazuh indexer, Wazuh manager, and Wazuh dashboard.
 ```mermaid
 flowchart TB
 
@@ -37,8 +37,8 @@ In a web browser visit the local dashboard instance 127.0.0.1. Login using admin
 
 # Wazuh Agent
 ## Environment  
-Virtualbox 7.2 - Hosts Debian 13
-Debian 13 VM - For Wazuh Agent
+- VirtualBox 7.2 - Hosts Debian 13
+- Debian 13 - For Wazuh Agent
 ```mermaid
 flowchart TB
 
