@@ -25,7 +25,7 @@ Run the installation assistant script all-in-one for the indexer, manager, and d
 ```
 sudo bash ./wazuh-install.sh -a
 ```
-As the install finsihes, an admin password will be displayed. Save this admin password because it is needed to log into the dashboard later. 
+Once the install finishes, an admin password was saved into a post install archive. Extract it and save this admin password away because it is needed to log into the dashboard later. 
 ```
 sudo tar -O -xvf wazuh-install-files.tar wazuh-install-files/wazuh-passwords.txt > wazuh-passwords.txt
 ```
