@@ -19,7 +19,7 @@ flowchart TB
 ### Installation  
 Download the installation assistant script.
 ```
-curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh
+curl https://packages.wazuh.com/4.14/wazuh-install.sh
 ```
 Run the installation assistant script all-in-one for the indexer, manager, and dashboard using the -a flag.  
 ```
@@ -27,7 +27,7 @@ sudo bash ./wazuh-install.sh -a
 ```
 As the install finsihes, an admin password will be displayed. Save this admin password because it is needed to log into the dashboard later. 
 ```
-sudo tar -O -xvf wazuh-install-files.tar wazuh-passwords.txt
+sudo tar -O -xvf wazuh-install-files.tar wazuh-install-files/wazuh-passwords.txt > wazuh-passwords.txt
 ```
 Following the installations, check that the services are active.
 ```
