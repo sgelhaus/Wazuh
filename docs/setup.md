@@ -42,12 +42,8 @@ In a web browser visit the local dashboard instance 127.0.0.1. Login using admin
 - Debian 13 - For Wazuh Agent
 ```mermaid
 flowchart TB
-
     subgraph VM["Debian VM"]
-        
-        subgraph Wazuh["Wazuh SIEM"]
-            A["Wazuh Agent"]
-        end
+        A["Wazuh Agent"]
     end
 ```
 ### Installation 
