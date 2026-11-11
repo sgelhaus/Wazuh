@@ -35,6 +35,11 @@ sudo systemctl is-active wazuh-indexer wazuh-manager wazuh-dashboard
 ```
 Expect each service to return, active.  
 In a web browser visit the local dashboard instance 127.0.0.1. Login using admin and the password given to you at the end of the install script.
+![Manager login](assets/Manager0.png)  
+
+The overview shows that no agents are configured yet. Configuring an agent is next.
+![Manager overview](assets/Manager1.png)  
+
 
 # Wazuh Agent
 ## Environment  
@@ -88,5 +93,5 @@ sudo systemctl status wazuh-agent
      Active: active (running) since Fri 2026-11-06 16:39:20 EST; 7s ago
 ```
 Visit the Wazuh manager to verify the agent was added.
-![Agent added](assets/AgentAdded2.png)  
+![Agent added](assets/AgentAdded2.png) 
 
