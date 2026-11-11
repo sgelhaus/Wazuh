@@ -87,3 +87,6 @@ sudo systemctl status wazuh-agent
      Loaded: loaded (/usr/lib/systemd/system/wazuh-agent.service; enabled; preset: enable>
      Active: active (running) since Fri 2026-11-06 16:39:20 EST; 7s ago
 ```
+Visit the Wazuh manager to verify the agent was added.
+![Agent added](assets/AgentAdded2.png)  
+
